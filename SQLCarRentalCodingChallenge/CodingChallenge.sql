@@ -1,4 +1,5 @@
 
+
 CREATE DATABASE CC;
 USE CC;
 CREATE TABLE Vehicle (
@@ -172,10 +173,11 @@ WHERE transactionDate >= '2024-01-01'
 AND transactionDate < '2025-01-01';    --red line showing  bcoz we changed the name of paymentDate to transactionDate in Q3
 
 --12. Retrieve customers who have not made any payments.
-SELECT c.* 
-FROM Customer c
-JOIN Payment p ON c.customerID = p.paymentID
-WHERE p.paymentID IS NULL;
+SELECT C.*
+FROM Customer C
+LEFT JOIN Lease L ON C.customerID = L.customerID
+LEFT JOIN Payment P ON L.leaseID = P.leaseID
+WHERE P.paymentID IS NULL;
 -- all customers have made payment is empty output is shown
 
 --13. Retrieve Car Details and Their Total Payments. 
