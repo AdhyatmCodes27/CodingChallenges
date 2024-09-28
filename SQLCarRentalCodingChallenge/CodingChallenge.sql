@@ -188,6 +188,8 @@ LEFT JOIN Payment p ON l.leaseID = p.leaseID
 GROUP BY v.vehicleID, v.make, v.model, v.year
 ORDER BY TotalPayment DESC;
 
+
+
 --14. Calculate Total Payments for Each Customer. 
 SELECT c.customerID, c.firstName, SUM(p.amount) AS TotalPayment
 FROM Customer c
@@ -229,7 +231,15 @@ GROUP BY c.customerID, c.firstName, c.lastName
 ORDER BY TotalSpent DESC;
 
 --18. List All Cars with Their Current Lease Information. 
+USE CC;
 SELECT v.vehicleID, v.make, v.model, v.year, l.leaseID, l.customerID, l.startDate, l.endDate
 FROM Vehicle v
 LEFT JOIN Lease l ON v.vehicleID = l.vehicleID
+WHERE l.endDate >= GETDATE();
+
+USE CC;
+SELECT l.leaseID,l.customerID, l.startDate, l.endDate, (SELECT v.make FROM Vehicle v WHERE v.vehicleID = l.vehicleID) AS Make,
+                                                       (SELECT v.model FROM Vehicle v WHERE v.vehicleID = l.vehicleID) AS model,
+				                                       (SELECT v.year FROM Vehicle v WHERE v.vehicleID = l.vehicleID) AS year
+FROM Lease l
 WHERE l.endDate >= GETDATE();
