@@ -1,0 +1,15 @@
+D:\C# CaseStudy\CarRentalSystem.UI\obj\Debug\CarRentalSystem.UI.csproj.AssemblyReference.cache
+D:\C# CaseStudy\CarRentalSystem.UI\obj\Debug\CarRentalSystem.UI.csproj.SuggestedBindingRedirects.cache
+D:\C# CaseStudy\CarRentalSystem.UI\obj\Debug\CarRentalSystem.UI.csproj.CoreCompileInputs.cache
+D:\C# CaseStudy\CarRentalSystem.UI\bin\Debug\CarRentalSystem.UI.exe.config
+D:\C# CaseStudy\CarRentalSystem.UI\bin\Debug\CarRentalSystem.UI.exe
+D:\C# CaseStudy\CarRentalSystem.UI\bin\Debug\CarRentalSystem.UI.pdb
+D:\C# CaseStudy\CarRentalSystem.UI\bin\Debug\CarRentalSystem.BusinessLayer.dll
+D:\C# CaseStudy\CarRentalSystem.UI\bin\Debug\CarRentalSystem.Entity.dll
+D:\C# CaseStudy\CarRentalSystem.UI\bin\Debug\CarRentalSystem.BusinessLayer.pdb
+D:\C# CaseStudy\CarRentalSystem.UI\bin\Debug\CarRentalSystem.Entity.pdb
+D:\C# CaseStudy\CarRentalSystem.UI\obj\Debug\CarRentalSystem.UI.csproj.CopyComplete
+D:\C# CaseStudy\CarRentalSystem.UI\obj\Debug\CarRentalSystem.UI.exe
+D:\C# CaseStudy\CarRentalSystem.UI\obj\Debug\CarRentalSystem.UI.pdb
+D:\C# CaseStudy\CarRentalSystem.UI\bin\Debug\CarRentalSystem.DatabaseLayer.dll
+D:\C# CaseStudy\CarRentalSystem.UI\bin\Debug\CarRentalSystem.DatabaseLayer.pdb
