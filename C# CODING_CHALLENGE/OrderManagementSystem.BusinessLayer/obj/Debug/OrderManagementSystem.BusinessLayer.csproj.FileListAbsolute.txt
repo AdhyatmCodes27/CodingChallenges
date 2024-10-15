@@ -1,0 +1,9 @@
+D:\C# CODING_CHALLENGE\OrderManagementSystem.BusinessLayer\bin\Debug\OrderManagementSystem.BusinessLayer.dll
+D:\C# CODING_CHALLENGE\OrderManagementSystem.BusinessLayer\bin\Debug\OrderManagementSystem.BusinessLayer.pdb
+D:\C# CODING_CHALLENGE\OrderManagementSystem.BusinessLayer\obj\Debug\OrderManagementSystem.BusinessLayer.csproj.AssemblyReference.cache
+D:\C# CODING_CHALLENGE\OrderManagementSystem.BusinessLayer\obj\Debug\OrderManagementSystem.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\C# CODING_CHALLENGE\OrderManagementSystem.BusinessLayer\obj\Debug\OrderManagementSystem.BusinessLayer.dll
+D:\C# CODING_CHALLENGE\OrderManagementSystem.BusinessLayer\obj\Debug\OrderManagementSystem.BusinessLayer.pdb
+D:\C# CODING_CHALLENGE\OrderManagementSystem.BusinessLayer\bin\Debug\OrderManagementSystem.Entity.dll
+D:\C# CODING_CHALLENGE\OrderManagementSystem.BusinessLayer\bin\Debug\OrderManagementSystem.Entity.pdb
+D:\C# CODING_CHALLENGE\OrderManagementSystem.BusinessLayer\obj\Debug\OrderManagementSystem.BusinessLayer.csproj.CopyComplete
